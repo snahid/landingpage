@@ -1,0 +1,246 @@
+.contact-message-wrapper{
+    background-image: url(../assets/images/contactbg1.png), url(../assets/images/contactbg2.png), url(../assets/images/contactbg3.png), url(../assets/images/contactbg4.png);
+    background-repeat: no-repeat;
+    background-position: 0rem 1rem, 0rem 25rem, right 12rem, right 14rem;
+
+    @media(max-width: 1600px){
+        background-size: 12rem, 11rem, 3rem, 11rem;
+        background-position: 0rem 2rem, 0rem 20rem, right 5rem, right 9rem;
+    }
+    @media(max-width: 1440px){
+        background-size: 12rem, 12rem, 3rem, 12rem;
+        background-position: 0rem 2rem, 0rem 21rem, right 5rem, right 13rem;
+    }
+    @media(max-width: 1170px){
+        background-size: 9rem, 8rem, 0rem, 8rem;
+        background-position: 0rem 3rem, 0rem 16rem, right 5rem, right 13rem;
+    }
+    @media(max-width: 1024px){
+        background-size: 0rem, 8rem, 0rem, 8rem;
+        background-position: 0rem 3rem, 0rem 11rem, right 5rem, right 13rem;
+    }
+    @media(max-width: 767px){
+        background-size: 0rem, 0rem, 0rem, 0rem;
+    }
+    .contact-us-wrapper{
+        .container{
+            .contact-inner{
+                text-align: center;
+                padding: 10px 20px;
+                @media(max-width: 767px){
+                    padding: 10px 0;
+                }
+                h3{
+                    font-size: 64px;
+                    line-height: 92px;
+                    font-weight: 500;
+                    color: #000000;
+                    margin-bottom: 35px;
+                    @media(max-width: 1600px){
+                      font-size: 42px;
+                      line-height: unset;
+                    }
+                    @media(max-width: 1440px){
+                      margin-bottom: 15px;
+                    }
+                    @media(max-width: 991px){
+                      font-size: 38px;
+                      line-height: 45px;
+                  }
+                  @media(max-width: 767px){
+                    font-size: 34px;
+                    margin-bottom: 5px;
+                  }
+                }
+                p{
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 34px;
+                    color: #656565;
+                     width: 920px;
+                     margin: 0 auto 15px auto;
+                     @media(max-width: 1600px){
+                        font-size: 16px;
+                        line-height: 26px;
+                        margin: 0 auto 5px auto;
+                    }
+                    @media(max-width: 1366px){
+                        font-size: 15px;
+                        line-height: 22px;
+                    }
+                    @media(max-width: 991px){
+                        padding: 0;
+                        width: unset;
+                    }
+                    @media(max-width: 767px){
+                        font-size: 14px;
+                        line-height: 24px;
+                      }
+                      @media(max-width: 483px){
+                        font-size: 12px;
+                        line-height: 20px;
+                      }
+                }
+            }
+        }
+    }
+    .contact-form-wrapper{
+        
+        padding: 10px 0px 80px 0px;
+        position: relative;
+        z-index: 1;
+        @media(max-width: 767px){
+            padding: 10px 0px 55px 0px;
+        }
+        &::after{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            background-color: #492d21;
+            opacity: 0.05;
+            border-radius: 50%/20px 20px 0 0;
+            content: "";
+            z-index: -1;
+        }
+        h3{
+            font-size: 64px;
+            font-weight: 500;
+            color: #000000;
+            margin-bottom: 5px;
+            text-align: center;
+            @media(max-width: 991px){
+                font-size: 38px;
+            }
+            span{
+                color: #fccc4f;
+            }
+        }
+        p{
+            text-align: center;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 34px;
+            color: #656565;
+        }
+        .form-container{
+            margin-top: 30px;
+            .row{
+               
+                .col-md-6{
+                    .form-left{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+                .col-md-6{
+                    .myform-container{
+                        @media(max-width: 767px){
+                            margin-top: 40px;
+                        }
+                        form{
+                            input{
+                                color: #492d21;
+                                font-size: 15px;
+                                font-weight: 500;
+                            }
+                            
+                            select {
+                                -webkit-appearance: none;
+                                outline: none;
+                                box-sizing: border-box;
+                                border-radius: 6px;
+                                background: #ffffff;
+                                border: none;
+                                outline: none;
+                                padding: 15px 13px 15px;
+                                background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+                                  linear-gradient(135deg, gray 50%, transparent 50%);
+                                background-position: calc(100% - 20px) calc(1em + 9px),
+                                  calc(100% - 15px) calc(1em + 9px),
+                                  calc(100% - 2.5em) 0.5em;
+                                background-size: 5px 5px, 5px 5px, 1px 1.5em;
+                                background-repeat: no-repeat;
+                                cursor: pointer;
+                              }
+                              select {
+                                color: #492d21;
+                                width: 100%;
+                                height: 54px;
+                                margin-top: 6px;
+                                font-size: 15px;
+                                font-weight: 500;
+                              }
+                              
+                              .placeholder {
+                                color: rgba(0,0,0,0.2);
+                              }
+                            textarea{
+                                color: #492d21;
+                                font-size: 15px;
+                                font-weight: 500;
+                            }
+                            .submit-wrapper{
+                                text-align: right;
+                                @media(max-width: 767px){
+                                    text-align: center;
+                                }
+                                .contact-btn{
+                                    width: 243px;
+                                    padding: 12px;
+                                    color: #fff;
+                                    background: #492d21;
+                                    border-radius: 8px;
+                                    transition: .5s ease;
+                                    @media(max-width: 767px){
+                                        width: 100%;
+                                    }
+                                    &:hover{
+                                        background-color: #FFF;
+                                        color: #492d21;
+                                        border: 1px solid #492d21;
+                                    }
+                                }
+                            }
+                            
+
+                            .seccess_message{
+                                background-color: #492d21;
+                                color: #ffffff;
+                                font-size: 18px;
+                                text-align: center;
+                                padding: 12px 0;
+                                border-radius: 8px;
+                                margin-bottom: 20px;
+                            }
+                        }
+                        .address{
+                            p{
+                                text-align: left;
+                                margin-bottom: 5px; 
+                                @media(max-width: 1440px){
+                                    font-size: 14px;
+                                    
+                                }  
+                                @media(max-width: 1366px){
+                                    margin-bottom: 0;
+                                }
+                            }
+                            .add-inner{
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 26px;
+                                color: #656565;
+                                @media(max-width: 1440px){
+                                    font-size: 14px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

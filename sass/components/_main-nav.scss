@@ -1,0 +1,77 @@
+.navbar-menu-wrapper{
+    position: relative;
+    &::after{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        content: "";
+        background-color: #492D21;
+        height: 1px;
+        width: 100%;
+        opacity: 10%;
+    }
+    .container-fluid{
+        .navbar-inner{
+            .navbar{
+                .mynavbar-brand{
+                    @media(max-width: 430px){
+                        width: 240px;
+                    }
+                    @media(max-width: 375px){
+                        width: 200px;
+                    }
+                    @media(max-width: 333px){
+                        width: 170px;
+                    }
+                    img{
+                        width: 100%;
+                        @media(max-width: 550px){
+                            width: 100%;
+                        }
+                    }
+                }
+                .mytogglericon{
+                    color: rgba(73, 45, 33, 1) !important;
+                    border-color: transparent;
+                    &:focus{
+                        outline: none;
+                        border: none;
+                    }
+                }
+                
+                .collapse, .collapsing{
+                    .navbar-nav{
+                        .nav-item{
+                            .nav-link{
+                                font-size: 18px;
+                                color: #000000;
+                                font-weight: 400;
+                                padding: 10px 25px;
+                                border-radius: 8px;
+                                transition: 0.5s ease;
+                                line-height: 27px;
+                                &:hover{
+                                    color: #492D21;
+                                }
+
+                                @media(max-width: 991px){
+                                    text-align: center;
+                                }
+                                @media(max-width: 767px){
+                                    font-size: 16px;
+                                }
+                            }
+                            .active{
+                                color: #ffffff;
+                                background-color: #492D21;
+                                &:hover{
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
