@@ -371,6 +371,9 @@
                .bottomcopyright{
                    text-align: center;
                    margin-top: 10px;
+                   @media(max-width: 575px){
+                    margin-top: 5px;
+                }
                    p{
                     font-size: 14px;
                     font-weight: 400;
@@ -378,6 +381,9 @@
                     margin-bottom: 0;
                     @media(max-width: 575px){
                         font-size: 12px;
+                    }
+                    @media(max-width: 328px){
+                        font-size: 11px;
                     }
                    }
                }
@@ -390,6 +396,12 @@
                             width: 28px;
                             height: 28px;
                             line-height: 28px;
+                        }
+                        @media(max-width: 575px){
+                            width: 25px;
+                            height: 25px;
+                            line-height: 25px;
+                            font-size: 15px;
                         }
                         width: 34px;
                         height: 34px;

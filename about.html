@@ -49,48 +49,99 @@
 
   <body>
     <header>
-        <!-- Navigation  -->
-        <div class="navbar-menu-wrapper">
-          <div class="container-fluid">
-            <div class="max-width">
-              <div class="navbar-inner">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                  <a class="navbar-brand mynavbar-brand" href="#"
-                    ><img src="./assets/images/logo.png" alt=""
-                  /></a>
-                  <button
-                    class="navbar-toggler mytogglericon"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarNav"
-                    aria-controls="navbarNav"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                  >
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link" href="./index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link active" href="./about.html">About Us</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./index.html#how_work">How It Works</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="./contact-us.html">Contact Us</a>
-                      </li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
+      <!-- Navigation  -->
+      <div class="navbar-menu-wrapper">
+        <div class="container-fluid bignavbar">
+          <div class="max-width">
+            <div class="navbar-inner">
+              <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand mynavbar-brand" href="./index.html"
+                  ><img src="./assets/images/logo.png" alt=""
+                /></a>
+                <button
+                  class="navbar-toggler mytogglericon"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="./about.html"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html#how_work"
+                        >How It Works</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./contact-us.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
             </div>
           </div>
         </div>
-        <!-- Navigation  -->
+        <!-- Mobile-device Menu  -->
+        <div class="mobile-device">
+          <div class="topindex">
+            <div class="container-fluid">
+              <div class="max-width">
+                <div class="menudisplay">
+                  <div class="logo-hambarger row">
+                    <div class="logo col-md-6 col-sm-8 col-8">
+                      <a href="./index.html"
+                        ><img src="./assets/images/logo.png" alt=""
+                      /></a>
+                    </div>
+                    <div class="hambarger col-md-6 col-sm-4 col-4">
+                      <i id="barguricon"
+                        class="fa fa-bars"
+                        aria-hidden="true"
+                      ></i>
+                      <i id="bargurhide"
+                      class="fa fa-bars"
+                      aria-hidden="true"
+                    ></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mymenu" id="menus">
+            <ul>
+              <li>
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a class="myactive" href="./about.html">About Us</a>
+              </li>
+              <li>
+                <a href="./index.html#how_work">How It Works</a>
+              </li>
+              <li>
+                <a href="./contact-us.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Mobile-device Menu  -->
+      </div>
+      <!-- Navigation  -->
     </header>
 
     <main>
@@ -102,15 +153,19 @@
               <div class="col-md-6">
                 <div class="break-left">
                   <h3>
-                    About <span> Experts <br> Circle </span>
+                    About
+                    <span>
+                      Experts <br />
+                      Circle
+                    </span>
                   </h3>
                   <p>
-                    For decades, the recruitment process remained unchanged
-                    and unchallenged. We asked, “What if there was a better
-                    way? What if we could enable the experts of their own
-                    fields to facilitate the recruitment instead of depending
-                    on traditional recruiters who often fall short of the
-                    qualities needed to judge the best candidates?”
+                    For decades, the recruitment process remained unchanged and
+                    unchallenged. We asked, “What if there was a better way?
+                    What if we could enable the experts of their own fields to
+                    facilitate the recruitment instead of depending on
+                    traditional recruiters who often fall short of the qualities
+                    needed to judge the best candidates?”
                   </p>
                 </div>
               </div>
@@ -133,30 +188,31 @@
           <div class="max-width">
             <div class="row">
               <div class="col-md-6">
-               <div class="about-modal">
-                <img src="./assets/images/image.png" alt="">
-                <span data-toggle="modal" data-target="#openyoutubevideo">
-                  <i class="fas fa-play about-play"></i>
-                </span>
-               </div>
+                <div class="about-modal">
+                  <img src="./assets/images/image.png" alt="" />
+                  <span data-toggle="modal" data-target="#openyoutubevideo">
+                    <i class="fas fa-play about-play"></i>
+                  </span>
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="para">
                   <p class="abt-content">
-                    There is a massive force of experts in various sectors with solid qualifications
-                    and years of experience in their fields in the country and most of them have a
-                    broad network of professional connections with other experts in their
+                    There is a massive force of experts in various sectors with
+                    solid qualifications and years of experience in their fields
+                    in the country and most of them have a broad network of
+                    professional connections with other experts in their
                     industries.
-  
-                </p>
-                <p class="abt-content">
-                    We are providing a platform to empower these experts to act as recruiters by
-                    taking advantage of their existing skills and have another stream of earning
-                    without much of the burden of conventional recruitment activities. This will
-                    open doors for employers to swiftly fulfil vacancies with quality candidates who
-                    are screened, vetted and verified by experts with the required hard and soft
-                    skills.
-                </p>
+                  </p>
+                  <p class="abt-content">
+                    We are providing a platform to empower these experts to act
+                    as recruiters by taking advantage of their existing skills
+                    and have another stream of earning without much of the
+                    burden of conventional recruitment activities. This will
+                    open doors for employers to swiftly fulfil vacancies with
+                    quality candidates who are screened, vetted and verified by
+                    experts with the required hard and soft skills.
+                  </p>
                 </div>
               </div>
             </div>
@@ -165,8 +221,8 @@
       </div>
       <!-- Categories  -->
 
-        <!-- Moda Video  -->
-        <div
+      <!-- Moda Video  -->
+      <div
         class="modal fade"
         id="openyoutubevideo"
         tabindex="-1"
@@ -205,56 +261,71 @@
       </div>
       <!-- Moda Video  -->
 
-
       <div class="story-vision">
-             <!-- Our Story -->
-      <div class="story-wrapper">
-        <div class="container-fluid mystory-container">
-          <div class="max-width">
-            <h3>Our <span>Story</span></h3>
-            <img src="./assets/images/our-story-img.png" alt="" class="img-fluid img-block">
-            <img src="./assets/images/our-story-img-1.png" alt="" class="img-fluid img-none">
+        <!-- Our Story -->
+        <div class="story-wrapper">
+          <div class="container-fluid mystory-container">
+            <div class="max-width">
+              <h3>Our <span>Story</span></h3>
+              <img
+                src="./assets/images/our-story-img.png"
+                alt=""
+                class="img-fluid img-block"
+              />
+              <img
+                src="./assets/images/our-story-img-1.png"
+                alt=""
+                class="img-fluid img-none"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <!-- Our Story  -->
+        <!-- Our Story  -->
 
-      <!-- Our vision  -->
-      <div class="vision-wrapper">
-        <div class="container-fluid">
-          <div class="max-width">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="vision-left">
-                  <div class="left">
-                    <img src="./assets/images/vision-crown.png" alt="">
-                    <img src="./assets/images/crownstick.png" class="crowstick" alt="">
-                  </div>
-                  <div class="right">
-                    <h3>Our <span>Vision</span></h3>
-                    <p>
-                      Let’s break the barrier of traditional recruitment by empowering any industry
-                      expert to become a virtual recruiter.
-                  </p>
-                  <p>
-                      Enable employers to hire top quality candidates vetted and verified by industry
-                      experts swiftly.
-                  </p>
+        <!-- Our vision  -->
+        <div class="vision-wrapper">
+          <div class="container-fluid">
+            <div class="max-width">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="vision-left">
+                    <div class="left">
+                      <img src="./assets/images/vision-crown.png" alt="" />
+                      <img
+                        src="./assets/images/crownstick.png"
+                        class="crowstick"
+                        alt=""
+                      />
+                    </div>
+                    <div class="right">
+                      <h3>Our <span>Vision</span></h3>
+                      <p>
+                        Let’s break the barrier of traditional recruitment by
+                        empowering any industry expert to become a virtual
+                        recruiter.
+                      </p>
+                      <p>
+                        Enable employers to hire top quality candidates vetted
+                        and verified by industry experts swiftly.
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="col-md-6">
-                <div class="vision-right">
-                  <img src="./assets/images/our-vision-img-2.png" alt="" class="img-fluid">
+                <div class="col-md-6">
+                  <div class="vision-right">
+                    <img
+                      src="./assets/images/our-vision-img-2.png"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- Our vision  -->
       </div>
-      <!-- Our vision  -->
-      </div>
-
 
       <!-- Client Feedback  -->
       <div class="feedback-team-wrapper">
@@ -264,35 +335,39 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="feedback-left">
-                    <h3>Client<br/><span>Feedback</span></h3>
-                    <p>Primis facilisis penatibus potenti eleifend nostra porta pellentesque pede enim proin amet ipsum letius auctor mauris morbi accumsan risus sociosqu cubilia inceptos torquent lectus purus imperdiet</p>
+                    <h3>Client<br /><span>Feedback</span></h3>
+                    <p>
+                      Primis facilisis penatibus potenti eleifend nostra porta
+                      pellentesque pede enim proin amet ipsum letius auctor
+                      mauris morbi accumsan risus sociosqu cubilia inceptos
+                      torquent lectus purus imperdiet
+                    </p>
                   </div>
                 </div>
                 <div class="col-md-8">
                   <div class="slider-container">
                     <div class="owl-carousel owl-theme">
                       <div class="item">
-                      <div class="slider-wrapper">
-                        <i class="fa fa-quote-left quote-left" aria-hidden="true"></i>
-                        <i class="fa fa-quote-right quote-right" aria-hidden="true"></i>
-                        <div class="inner">
-                          <img src="./assets/images/slider.png" alt="">
-                          <p>Vulputate sit quam lacinia pulvinar fames elit curae commodo augue nibh eleifend cubilia nam quis porta torquent velit interdum nec taciti aenean praesent rhoncus blandit penatibus laoreet proin diam erat bibendum auctor consectetur convallis finibus suspendisse volutpat sagittis ornare nullam</p>
-                          <div class="myborder"></div>
-                          <div class="details">
-                            <h6>Romi Jensen</h6>
-                            <p>Founder</p>
-                          </div>
-                        </div>
-                      </div>
-                      </div>
-                      <div class="item">
                         <div class="slider-wrapper">
-                          <i class="fa fa-quote-left quote-left" aria-hidden="true"></i>
-                          <i class="fa fa-quote-right quote-right" aria-hidden="true"></i>
+                          <i
+                            class="fa fa-quote-left quote-left"
+                            aria-hidden="true"
+                          ></i>
+                          <i
+                            class="fa fa-quote-right quote-right"
+                            aria-hidden="true"
+                          ></i>
                           <div class="inner">
-                            <img src="./assets/images/slider.png" alt="">
-                            <p>Vulputate sit quam lacinia pulvinar fames elit curae commodo augue nibh eleifend cubilia nam quis porta torquent velit interdum nec taciti aenean praesent rhoncus blandit penatibus laoreet proin diam erat bibendum auctor consectetur convallis finibus suspendisse volutpat sagittis ornare nullam</p>
+                            <img src="./assets/images/slider.png" alt="" />
+                            <p>
+                              Vulputate sit quam lacinia pulvinar fames elit
+                              curae commodo augue nibh eleifend cubilia nam quis
+                              porta torquent velit interdum nec taciti aenean
+                              praesent rhoncus blandit penatibus laoreet proin
+                              diam erat bibendum auctor consectetur convallis
+                              finibus suspendisse volutpat sagittis ornare
+                              nullam
+                            </p>
                             <div class="myborder"></div>
                             <div class="details">
                               <h6>Romi Jensen</h6>
@@ -303,11 +378,25 @@
                       </div>
                       <div class="item">
                         <div class="slider-wrapper">
-                          <i class="fa fa-quote-left quote-left" aria-hidden="true"></i>
-                          <i class="fa fa-quote-right quote-right" aria-hidden="true"></i>
+                          <i
+                            class="fa fa-quote-left quote-left"
+                            aria-hidden="true"
+                          ></i>
+                          <i
+                            class="fa fa-quote-right quote-right"
+                            aria-hidden="true"
+                          ></i>
                           <div class="inner">
-                            <img src="./assets/images/slider.png" alt="">
-                            <p>Vulputate sit quam lacinia pulvinar fames elit curae commodo augue nibh eleifend cubilia nam quis porta torquent velit interdum nec taciti aenean praesent rhoncus blandit penatibus laoreet proin diam erat bibendum auctor consectetur convallis finibus suspendisse volutpat sagittis ornare nullam</p>
+                            <img src="./assets/images/slider.png" alt="" />
+                            <p>
+                              Vulputate sit quam lacinia pulvinar fames elit
+                              curae commodo augue nibh eleifend cubilia nam quis
+                              porta torquent velit interdum nec taciti aenean
+                              praesent rhoncus blandit penatibus laoreet proin
+                              diam erat bibendum auctor consectetur convallis
+                              finibus suspendisse volutpat sagittis ornare
+                              nullam
+                            </p>
                             <div class="myborder"></div>
                             <div class="details">
                               <h6>Romi Jensen</h6>
@@ -318,11 +407,25 @@
                       </div>
                       <div class="item">
                         <div class="slider-wrapper">
-                          <i class="fa fa-quote-left quote-left" aria-hidden="true"></i>
-                          <i class="fa fa-quote-right quote-right" aria-hidden="true"></i>
+                          <i
+                            class="fa fa-quote-left quote-left"
+                            aria-hidden="true"
+                          ></i>
+                          <i
+                            class="fa fa-quote-right quote-right"
+                            aria-hidden="true"
+                          ></i>
                           <div class="inner">
-                            <img src="./assets/images/slider.png" alt="">
-                            <p>Vulputate sit quam lacinia pulvinar fames elit curae commodo augue nibh eleifend cubilia nam quis porta torquent velit interdum nec taciti aenean praesent rhoncus blandit penatibus laoreet proin diam erat bibendum auctor consectetur convallis finibus suspendisse volutpat sagittis ornare nullam</p>
+                            <img src="./assets/images/slider.png" alt="" />
+                            <p>
+                              Vulputate sit quam lacinia pulvinar fames elit
+                              curae commodo augue nibh eleifend cubilia nam quis
+                              porta torquent velit interdum nec taciti aenean
+                              praesent rhoncus blandit penatibus laoreet proin
+                              diam erat bibendum auctor consectetur convallis
+                              finibus suspendisse volutpat sagittis ornare
+                              nullam
+                            </p>
                             <div class="myborder"></div>
                             <div class="details">
                               <h6>Romi Jensen</h6>
@@ -333,11 +436,25 @@
                       </div>
                       <div class="item">
                         <div class="slider-wrapper">
-                          <i class="fa fa-quote-left quote-left" aria-hidden="true"></i>
-                          <i class="fa fa-quote-right quote-right" aria-hidden="true"></i>
+                          <i
+                            class="fa fa-quote-left quote-left"
+                            aria-hidden="true"
+                          ></i>
+                          <i
+                            class="fa fa-quote-right quote-right"
+                            aria-hidden="true"
+                          ></i>
                           <div class="inner">
-                            <img src="./assets/images/slider.png" alt="">
-                            <p>Vulputate sit quam lacinia pulvinar fames elit curae commodo augue nibh eleifend cubilia nam quis porta torquent velit interdum nec taciti aenean praesent rhoncus blandit penatibus laoreet proin diam erat bibendum auctor consectetur convallis finibus suspendisse volutpat sagittis ornare nullam</p>
+                            <img src="./assets/images/slider.png" alt="" />
+                            <p>
+                              Vulputate sit quam lacinia pulvinar fames elit
+                              curae commodo augue nibh eleifend cubilia nam quis
+                              porta torquent velit interdum nec taciti aenean
+                              praesent rhoncus blandit penatibus laoreet proin
+                              diam erat bibendum auctor consectetur convallis
+                              finibus suspendisse volutpat sagittis ornare
+                              nullam
+                            </p>
                             <div class="myborder"></div>
                             <div class="details">
                               <h6>Romi Jensen</h6>
@@ -346,14 +463,43 @@
                           </div>
                         </div>
                       </div>
-                  </div>
+                      <div class="item">
+                        <div class="slider-wrapper">
+                          <i
+                            class="fa fa-quote-left quote-left"
+                            aria-hidden="true"
+                          ></i>
+                          <i
+                            class="fa fa-quote-right quote-right"
+                            aria-hidden="true"
+                          ></i>
+                          <div class="inner">
+                            <img src="./assets/images/slider.png" alt="" />
+                            <p>
+                              Vulputate sit quam lacinia pulvinar fames elit
+                              curae commodo augue nibh eleifend cubilia nam quis
+                              porta torquent velit interdum nec taciti aenean
+                              praesent rhoncus blandit penatibus laoreet proin
+                              diam erat bibendum auctor consectetur convallis
+                              finibus suspendisse volutpat sagittis ornare
+                              nullam
+                            </p>
+                            <div class="myborder"></div>
+                            <div class="details">
+                              <h6>Romi Jensen</h6>
+                              <p>Founder</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>  
+            </div>
           </div>
         </div>
-              <!-- Our Team  -->
+        <!-- Our Team  -->
         <div class="our-team-wrapper">
           <div class="container-fluid">
             <h3>Our <span>Team</span></h3>
@@ -361,7 +507,7 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="team team-border">
-                    <img src="./assets/images/teamimage.png" alt="">
+                    <img src="./assets/images/teamimage.png" alt="" />
                     <a href="#"
                       ><i class="fa fa-linkedin" aria-hidden="true"></i
                     ></a>
@@ -373,7 +519,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="team team-border">
-                    <img src="./assets/images/imageteam2.png" alt="">
+                    <img src="./assets/images/imageteam2.png" alt="" />
                     <a href="#"
                       ><i class="fa fa-linkedin" aria-hidden="true"></i
                     ></a>
@@ -385,7 +531,7 @@
                 </div>
                 <div class="col-md-4">
                   <div class="team">
-                    <img src="./assets/images/imageteam3.png" alt="">
+                    <img src="./assets/images/imageteam3.png" alt="" />
                     <a href="#"
                       ><i class="fa fa-linkedin" aria-hidden="true"></i
                     ></a>
@@ -407,56 +553,74 @@
     <footer>
       <div class="about-wrapper">
         <div class="container mb-3">
-            <div class="row">
-              <div class="col-md-5">
-                <div class="footer-left">
-                  <a href="./index.html"
-                    ><img src="./assets/images/logo.png" class="img-fluid" alt=""
-                  /></a>
-                  <p>
-                    A private limited company registered in the United Kingdom,
-                    company registration number is 12193805.
-                  </p>
-                </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="footer-left">
+                <a href="./index.html"
+                  ><img src="./assets/images/logo.png" class="img-fluid" alt=""
+                /></a>
+                <p>
+                  A private limited company registered in the United Kingdom,
+                  company registration number is 12193805.
+                </p>
               </div>
-              <div class="col-md-7">
-                <div class="row">
-                  <div class="col-6">
-                    <div class="menu company">
-                      <h6>Company</h6>
-                      <ul>
-                        <li><a href="./index.html">Home</a></li>
-                        <li><a href="./about.html">About Us</a></li>
-                        <li><a href="./index.html#work_flow">How It Works</a></li>
-                        <li><a href="#">Faq</a></li>
-                        <li><a href="./contact-us.html">Contact Us</a></li>
-                      </ul>
-                    </div>
+            </div>
+            <div class="col-md-7">
+              <div class="row">
+                <div class="col-6">
+                  <div class="menu company">
+                    <h6>Company</h6>
+                    <ul>
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./about.html">About Us</a></li>
+                      <li><a href="./index.html#work_flow">How It Works</a></li>
+                      <li><a href="#">Faq</a></li>
+                      <li><a href="./contact-us.html">Contact Us</a></li>
+                    </ul>
                   </div>
-                  <div class="col-6">
-                    <div class="menu legal">
-                      <h6>Legal</h6>
-                      <ul>
-                        <li><a href="#">Terms and conditions</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Cookie policy</a></li>
-                      </ul>
-                    </div>
+                </div>
+                <div class="col-6">
+                  <div class="menu legal">
+                    <h6>Legal</h6>
+                    <ul>
+                      <li><a href="#">Terms and conditions</a></li>
+                      <li><a href="#">Privacy policy</a></li>
+                      <li><a href="#">Cookie policy</a></li>
+                    </ul>
                   </div>
                 </div>
               </div>
             </div>
+          </div>
         </div>
         <div class="copyright-wrapper">
           <div class="container-fluid">
             <div class="max-width">
-              <div class="small-column row"> 
+              <div class="small-column row">
                 <div class="bottom-left col-md-6">
-                  <p>Copyright &copy; 2021 Experts Circle. All rights reserved.</p>
+                  <p>
+                    Copyright &copy; 2021 Experts Circle. All rights reserved.
+                  </p>
                 </div>
                 <div class="bottom-right col-md-6">
                   <div class="social">
                     <a href="#"
+                      ><i class="fa fa-facebook" aria-hidden="true"></i
+                    ></a>
+                    <a href="https://twitter.com/expertscircle" target="_blank"
+                      ><i class="fa fa-twitter" aria-hidden="true"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/company/74367916/admin/"
+                      target="_blank"
+                      ><i class="fa fa-linkedin" aria-hidden="true"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="bottomfooter">
+                <div class="bottomsocial">
+                  <a href="#"
                     ><i class="fa fa-facebook" aria-hidden="true"></i
                   ></a>
                   <a href="https://twitter.com/expertscircle" target="_blank"
@@ -467,30 +631,14 @@
                     target="_blank"
                     ><i class="fa fa-linkedin" aria-hidden="true"></i
                   ></a>
-                  </div>
-                </div>
-              </div>
-              <div class="bottomfooter">
-                <div class="bottomsocial">
-                  <a href="#"
-                  ><i class="fa fa-facebook" aria-hidden="true"></i
-                ></a>
-                <a href="https://twitter.com/expertscircle" target="_blank"
-                  ><i class="fa fa-twitter" aria-hidden="true"></i
-                ></a>
-                <a
-                  href="https://www.linkedin.com/company/74367916/admin/"
-                  target="_blank"
-                  ><i class="fa fa-linkedin" aria-hidden="true"></i
-                ></a>
                 </div>
                 <div class="bottomcopyright">
-                  <p>Copyright &copy; 2021 Experts Circle. All rights reserved.</p>
+                  <p>
+                    Copyright &copy; 2021 Experts Circle. All rights reserved.
+                  </p>
                 </div>
-               
               </div>
             </div>
-            
           </div>
         </div>
       </div>
